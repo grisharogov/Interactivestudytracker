@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Interactivestudytracker/', // <-- important, must match repo name.
+  base: '/Interactivestudytracker/', // must match your repo name, with leading + trailing slash
 })
